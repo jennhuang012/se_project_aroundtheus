@@ -27,7 +27,6 @@
 .profile__title {
   font-family: Inter, Arial, sans-serif;
   font-size: 42px;
-  font-style: normal;
   font-weight: 500;
   line-height: 48px;
   grid-area: title;
@@ -39,7 +38,7 @@
 }
 
 .profile__edit-button {
-  background: transparent url(../images/Edit\ Button.svg) center no-repeat;
+  background: transparent url(../images/edit-button.svg) center no-repeat;
   height: 24px;
   width: 24px;
   grid-area: button;
@@ -67,13 +66,14 @@
 }
 
 .profile__add-button {
-  background: transparent url(../images/Add\ Button.svg) center no-repeat;
+  background: transparent url(../images/add-button.svg) center no-repeat;
   height: 50px;
   width: 150px;
   margin-left: auto;
   flex-shrink: 0;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   max-width: 880px;
+  border-radius: 2px;
 }
 
 .profile__add-button:hover {
@@ -93,7 +93,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
   }
 
   .profile__description {
@@ -103,7 +102,6 @@
 
   .profile__add-button {
     margin: 0;
-
     width: 282px;
     height: 50px;
     flex-shrink: 0;
