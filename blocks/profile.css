@@ -81,11 +81,9 @@
   cursor: pointer;
 }
 
-@media screen and(max-width: 320px) {
+@media screen and (max-width: 320px) {
   .profile {
-    background-color: purple;
     flex-direction: column;
-    max-width: 320px;
     margin-top: 28px;
   }
 
@@ -95,15 +93,22 @@
     justify-content: center;
   }
 
+  .profile__edit-button {
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    margin: 0 34px 14px 10px;
+  }
+
   .profile__description {
     width: 100%;
     text-align: center;
+    font-size: 14px;
+    padding: 14px 0 36px 0;
   }
 
   .profile__add-button {
-    margin: 0;
+    margin: 0 auto 36px auto;
     width: 282px;
-    height: 50px;
-    flex-shrink: 0;
   }
 }

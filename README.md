@@ -7,4 +7,4 @@ Techniques:
 The techniques used here are with HTML, CSS, BEM and Media Queries. This is my first time using FIGMA.
 
 Here is my GitHub page:
-https://github.com/jennhuang012/se_project_aroundtheus.git
+https://jennhuang012.github.io/se_project_aroundtheus/
